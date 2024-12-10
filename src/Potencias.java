@@ -47,7 +47,7 @@ public class Potencias {
         scanner.close();
     }
 
-    // Método recursivo para calcular la potencia
+    // Metodo recursivo para calcular la potencia
     public double calcularPotencia(double base, int exponente) {
         // Caso base: cualquier número elevado a la 0 es 1
         if (exponente == 0) {
